@@ -12,11 +12,13 @@ function fullForm(event) {
         return alert("Please, fill in all lines!");
     }
     else {
-        const formData = {
-            email, password,
-        };
+        let formShow = {
+            email: email.value,
+            password: password.value,
+        }
     
-                console.log(formData);
+        console.log(formShow);
+      
         }
         event.currentTarget.reset();
     }
